@@ -1,80 +1,28 @@
-Spotlight on Generative AI Architectures (such as Transformers)
-The architecture of generative AI systems provides the essential framework that determines how models learn patterns, represent knowledge, and create new content. Among the many architectures proposed, transformer-based models have become the most influential, driving the rapid progress of modern generative systems and large language models (LLMs).
+# Aim:	Comprehensive Report on the Fundamentals of Generative AI and Large Language Models (LLMs)
+# Experiment:
+# Develop a comprehensive report for the following exercises:
+1.	Explain the foundational concepts of Generative AI. 
+2.	Focusing on Generative AI architectures. (like transformers).
+3.	Generative AI applications.
+4.	Generative AI impact of scaling in LLMs.
 
-Development of Architectures
-Early Generative Approaches
+# Algorithm: 
+Step 1: Define Scope and Objectives
 
-Restricted Boltzmann Machines (RBMs) and Autoencoders (early 2000s) pioneered unsupervised representation learning.
+1.1 Identify the goal of the report (e.g., educational, research, tech overview)
 
-Generative Adversarial Networks (GANs), introduced in 2014, brought forward the adversarial training method, where a generator and discriminator improve each other, enabling the creation of realistic synthetic images.
+1.2 Set the target audience level (e.g., students, professionals)
 
-Sequence-Oriented Models
+1.3 Draft a list of core topics to cover
 
-Recurrent Neural Networks (RNNs) and Long Short-Term Memory (LSTM) models were initially designed to handle sequential data like speech or text.
+________________________________________
 
-Despite their usefulness, these models struggled with long-term dependencies, vanishing gradient problems, and slow sequential processing, making them less effective for large-scale generative applications.
+Step 2: Create Report Skeleton/Structure
 
-The Rise of Transformers
+2.1 Title Page
 
-Introduced by Vaswani et al. in the 2017 paper “Attention is All You Need”, the transformer architecture revolutionized generative AI.
+2.2 Abstract or Executive Summary
 
-Unlike RNNs, transformers handle all elements of a sequence simultaneously rather than step by step.
+2.3 Table of Contents
 
-The breakthrough innovation—self-attention—allows the model to recognize and weigh relationships between tokens, even when they are far apart in the input.
-
-Key Elements of Transformers
-Self-Attention
-
-Every token in the input sequence evaluates its relationship to all others, building context dynamically.
-
-Example: In the phrase “The dog barked because it was hungry”, the word “it” correctly refers to “dog”, thanks to attention mechanisms.
-
-Encoder-Decoder Framework
-
-Encoder: Processes and transforms input sequences into representations.
-
-Decoder: Uses these representations to produce outputs.
-
-Depending on the task, some models rely on just the encoder (BERT), just the decoder (GPT), or both (T5).
-
-Scalability
-
-Transformers adapt well to large datasets and powerful computing systems.
-
-Increasing layers, attention heads, and parameters generally boosts performance, making them ideal for large-scale LLM development.
-
-Transformer Variants and Their Uses
-Language-Centered Models
-
-GPT: Decoder-only design, optimized for generating fluent text.
-
-BERT: Encoder-only structure, excellent for classification and comprehension.
-
-T5: Encoder-decoder setup, reframing all NLP tasks as text-to-text transformations.
-
-Cross-Modal Models
-
-Transformers have been extended to work across multiple modalities.
-
-Examples include:
-
-DALL·E (text-to-image synthesis).
-
-CLIP (aligns text and image representations).
-
-Efficient Transformer Innovations
-
-Standard transformers can be computationally intensive.
-
-Variants such as Longformer, Performer, and Linformer improve efficiency for long-sequence processing.
-
-Importance of Transformers in Generative AI
-Parallel Processing → Training and inference are faster compared to older architectures.
-
-Context Awareness → Captures dependencies across long sequences.
-
-Expandable Design → Performance grows with scale in both data and parameters.
-
-Cross-Domain Capability → Effective in text, vision, speech, and multimodal tasks.
-
-🔑 Summary: Generative AI models have advanced through several architectural innovations, from RBMs and GANs to RNNs and LSTMs. However, the transformer framework stands out due to its efficiency, scalability, and adaptability, forming the cornerstone of today’s LLMs and multimodal generative systems.
+2.4 Introduction
